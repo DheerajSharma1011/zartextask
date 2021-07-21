@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+.salad-container {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  grid-template-rows: 0.4 0.2 0.2;
+  grid-template-areas:
+    "salad-heading salad-image"
+    "customization customization"
+    "btn btn";
+  margin: 40px;
+  /* border: black 1px solid; */
+}
+/* div{
+    border: black 1px solid;
+} */
+.salad-Heading {
+  font-family: "Noto Sans JP", sans-serif;
+  grid-area: salad-heading;
+}
+.salad-bold {
+  margin-top: 75px;
+  padding-top:30px ;
+  font-weight: bold;
+}
+.salad-image {
+  grid-area: salad-image;
+}
+.salad-image img {
+  width: 150px;
+  height: 150px;
+  margin-top: 110px;
+  box-shadow: 3px 3px grey;
+}
+.customization {
+  color: red;
+  grid-area: customization;
+}
+.salad-calories {
+   padding-top: 7px;
+  font-weight: bold;
+}
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-area: btn;
+  border-radius: 10px;
+}
+button {
+  padding: 3px 10px;
+  background-color: green;
+  color: white;
+}
+.count {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: black 1px solid;
+  padding: 1px 10px;
+  background-color: green;
+  color: white;
+}.spn{
+  width: 100px;
+  padding: 2px 70rem;
+  margin-top:-110px;
+}
+.counter{
+  color: black;
+   font-weight: bold;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin: -38px 93px;
+  border-radius: 50%;
+  border: 1px solid green;
+}
